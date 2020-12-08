@@ -13,10 +13,12 @@ Main screen:
 - At the top of the screen, you should place the search bar in which you could change the request option.
 - All space below should be used for gallery view (Recycler View + Grid Layout Manager + Adapter) (Discussion and examples will be provided on lab session at Thursday 12.40 with video)
 Amount of columns 2-3 on your choice.
+
 Details screen:
 
 - Fullscreen view which contains only your image well sized (check ImageView (android:scaleType))
 - It also should contain an option to go back to gallery view (not only with the back button, use cross at the top or any other option your choice)
+
 General requirements:
 
 - You may use any of the instruments mentioned in lections (native navigation, cicerone or AAC Navigation component (check slides from moodle)
