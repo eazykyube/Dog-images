@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav"
+    app:startDestination="@id/viewFragment">
+
+    <fragment
+        android:id="@+id/viewFragment"
+        android:name="com.example.dogimages.view.ViewFragment"
+        android:label="ViewFragment" >
+        <action
+            android:id="@+id/action_viewFragment_to_lookFragment"
+            app:destination="@id/lookFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lookFragment"
+        android:name="com.example.dogimages.view.LookFragment"
+        android:label="LookFragment" >
+        <action
+            android:id="@+id/action_lookFragment_to_viewFragment"
+            app:destination="@id/viewFragment" />
+    </fragment>
+</navigation>
