@@ -1,4 +1,4 @@
-# Dog-images
+# Dog images
 
 Implementation of an assignment within the Mobile Application Development course in Innopolis University. Was done as a free-listener of the course.
 
